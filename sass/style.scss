@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background: #000;
+}
+
+@import 'base/mixins';
+@import 'base/variables';
+@import 'blocks/about';
+@import 'blocks/main-screen';
+@import 'blocks/start';
+@import 'blocks/advantages';
