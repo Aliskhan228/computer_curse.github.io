@@ -1,0 +1,44 @@
+.partners {
+    width: 1315px;
+    height: 487px;  
+    margin: 0 0 153.2px 293px;
+    
+    &__top {
+        display: flex;
+        .spinner-2 {
+            width: 127px;
+            height: 127px;
+            
+        }
+        &-title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            color: #fff;
+            margin: 31px 0 0 20px;
+        }
+    }
+    &__msi {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1296px;
+        height: 300px;
+        margin: 89px 0 0 19px;
+        &-items {
+            width: 318px;
+            height: 150px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            border-right: 1px solid rgba(255, 255, 255, 0.3);
+            &-img {
+                margin: 29px 0 0 73px;
+            }
+        }
+        &-items:nth-child(8), :nth-child(7), :nth-child(6), :nth-child(5) {
+            border-bottom: none;
+        }
+        &-items:nth-child(4), :nth-child(8) {
+            border-right: none;
+        }
+    }
+}

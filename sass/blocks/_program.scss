@@ -1,0 +1,109 @@
+    .program {
+        width: 750px;
+        height: 1116.8px;
+        margin: 0 0 171.2px 593px;
+        &__top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .spinner-3 {
+
+            }
+            &-title {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                color: #fff;
+                margin-top: 31.2px;
+            }
+            &-descr {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 160%;
+                color: #fff;
+                opacity: 0.5;
+                width: 411px;
+                text-align: center;
+                margin-top: 30px;
+            }
+        }
+        &__weeks {
+            display: flex;
+            margin-top: 80px;
+            height: 750px;
+            &-left {
+                width: 364px;
+                &-items {
+                    margin-top: 87px;
+                    height: 95px;
+                    width: 300px;
+                    padding-top: 16px;
+                    &-title {
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        opacity: 0.5;
+                        width: 304px;
+                        height: 22px;
+                        text-align: right;
+                    }
+                    &-descr {
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 160%;
+                        color: #fff;
+                        width: 228px;
+                        margin: 15px 0 0 76px;
+                        text-align: right;
+                    }
+                }
+                &-items:first-child {
+                    margin-top: 0;
+                }
+            }
+            &-line {
+                width: 6px;
+                height: 677px;
+                background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+            }
+            &-right {
+                margin: 100px 0 0 76px;
+                &-items {
+                    margin-top: 97px;
+                    text-align: left;
+                    width: 300px;
+                    &-title {
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        opacity: 0.5;
+                        width: 304px;
+                        height: 22px;
+                    }
+                    &-descr {
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 18px;
+                        line-height: 160%;
+                        color: #fff;
+                        width: 228px;
+                        margin-top: 15px;
+                    }
+                }
+                &-items:first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+    }         
