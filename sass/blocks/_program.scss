@@ -7,9 +7,7 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            .spinner-3 {
-
-            }
+            
             &-title {
                 font-family: Roboto;
                 font-style: normal;
@@ -105,5 +103,38 @@
                     margin-top: 0;
                 }
             }
+            &-wrhr {
+                width: 45px;
+                height: 677px;
+                display: flex;
+                flex-direction: column;
+                .hr1 {
+                    margin-top: 62px;    
+                }
+                .hr2 {
+                    margin-top: 180px;
+                }
+                .hr3 {
+                    margin-top: 180px;
+                }
+                .hr4 {
+                    margin-top: 180px;
+                }
+            }
+            &-hr {
+                width: 40px;
+                height: 0px;
+                opacity: 0.3;
+                border: 1px solid #FFFFFF;
+                transform: rotate(180deg);
+            }
+            // &-wrhr1 {
+            //     width: 45px;
+            //     height: 677px;
+            //     display: flex;
+            //     flex-direction: column;
+                
+            // }
+            
         }
     }         

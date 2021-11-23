@@ -647,4 +647,222 @@ body {
 .program__weeks-right-items:first-child {
   margin-top: 0;
 }
+
+.program__weeks-wrhr {
+  width: 45px;
+  height: 677px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.program__weeks-wrhr .hr1 {
+  margin-top: 62px;
+}
+
+.program__weeks-wrhr .hr2 {
+  margin-top: 180px;
+}
+
+.program__weeks-wrhr .hr3 {
+  margin-top: 180px;
+}
+
+.program__weeks-wrhr .hr4 {
+  margin-top: 180px;
+}
+
+.program__weeks-hr {
+  width: 40px;
+  height: 0px;
+  opacity: 0.3;
+  border: 1px solid #FFFFFF;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.teachers {
+  width: 1341.62px;
+  height: 618.8px;
+  margin: 0 0 200px 266.38px;
+}
+
+.teachers__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.teachers__top-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+  margin-top: 59.8px;
+}
+
+.teachers__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 113px;
+  width: 100%;
+  height: 379px;
+}
+
+.teachers__wrapper-item {
+  display: block;
+  text-align: center;
+}
+
+.teachers__wrapper-item-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.teachers__wrapper-item-descr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+  margin-top: 15px;
+}
+
+.teachers__wrapper-item-btn {
+  background-color: #000;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  padding: 10px 30px;
+  width: 143px;
+  height: 44px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.footer {
+  width: 547px;
+  height: 419px;
+  margin: 0 0 30px 686px;
+}
+
+.footer__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer__descr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #fff;
+  opacity: 0.5;
+  text-align: center;
+  width: 411px;
+  margin: 30px 0 0 68px;
+}
+
+.footer__form {
+  margin: 60px 0 0 28px;
+  position: relative;
+}
+
+.footer__form-input {
+  position: absolute;
+  width: 353px;
+  height: 44px;
+  background: #fff;
+  opacity: 0.25;
+  border-radius: 50px 0px 0px 50px;
+  font-size: 14px;
+  padding: 11px 30px;
+  border: none;
+  cursor: text;
+}
+
+.footer__form-input:focus {
+  outline: none;
+}
+
+.footer__form-btn {
+  position: absolute;
+  width: 160px;
+  height: 44px;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+  padding: 10px 30px;
+  text-align: center;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  left: 332px;
+  cursor: pointer;
+}
+
+.footer__social-links {
+  width: 290px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 144px 0 0 129px;
+}
+
+.footer__social-links-items {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+  color: #fff;
+  font-size: 1.3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__bottom {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+  width: 411px;
+  margin: 50px 0 0 68px;
+  opacity: 0.8;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+.teachers {
+    width: 1341.62px;
+    height: 618.8px;
+    margin: 0 0 200px 266.38px;
+    &__top {
+        display: flex;
+        &-title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            color: #fff;
+            margin-top: 59.8px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 113px;
+        width: 100%;
+        height: 379px;
+        &-item {
+            display: block;
+            text-align: center;
+            &-title {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                color: #fff;
+                margin-top: 40px;
+            }
+            &-descr {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                color: #fff;
+                opacity: 0.8;
+                margin-top: 15px;
+            }
+            &-btn {
+                background-color: #000;
+                border: 1px solid #FFFFFF;
+                border-radius: 50px;
+                padding: 10px 30px;
+                width: 143px;
+                height: 44px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                color: #FFFFFF;
+                margin-top: 30px;
+            }
+        }
+    }
+}
